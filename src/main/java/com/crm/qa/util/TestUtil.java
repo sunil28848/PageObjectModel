@@ -37,7 +37,7 @@ public class TestUtil extends TestBase {
 		try {
 			file = new FileInputStream(TESTDATA_SHEET_PATH);
 		} catch (FileNotFoundException e) {
-			e.printStackTrace();
+			//e.printStackTrace();
 		}
 		try {
 			book = WorkbookFactory.create(file);
