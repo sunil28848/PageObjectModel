@@ -83,7 +83,7 @@ public class FreeCrmTest {
 		File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		// now copy the screenshot to desired location using copyFile //method
 		FileUtils.copyFile(src, 
-				new File("C:\Users\NDH00657\Desktop\testing\MyPOMFramework\PageObjectModel\screenshots" + fileName +".png"));
+				new File("src/test/java/com/crm/qa/testcases/" + fileName +".png"));
 
 	}
 
